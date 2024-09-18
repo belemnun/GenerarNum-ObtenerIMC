@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExamenCorte2 - Recuperacion</title>
+    <script src="/js/app.js"></script>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+    <header id="encabezado">
+        <h1>Calcular IMC</h1>
+    </header>
+
+    <div id="contenido">
+        <div id="contenedor">
+            <label>Edad:</label>
+            <input type="text" id="edad">
+            <label>Altura:</label>
+            <input type="text" id="altura">
+            <label>Peso:</label>
+            <input type="text" id="peso">
+            <button id="btnGenerar" onclick="generar()">Generar</button>
+            <button id="btnCalcular" onclick="calcular()">Calcular</button>
+            <button id="btnRegistrar" onclick="registrar()">Registrar</button>
+        </div>
+        <br>
+        <br>
+        <div id="contenedor-imc">
+            <div class="campo">
+                <label>IMC:</label>
+                <input type="text" id="imc">
+            </div>
+            <br>
+            <div class="campo">
+                <label>Nivel:</label>
+            <input type="text" id="nivel">
+            </div>
+        </div>
+        <br>
+        <div id="contenedor-registros">
+            <h2>Registros</h2>
+            <center>
+				<table border="1">
+					<thead>
+						<tr>
+							<th width="50">Num</th>
+							<th width="50">Edad</th>
+							<th width="90">Altura</th>
+							<th width="90">Peso</th>
+							<th width="50">IMC</th>
+							<th width="150">Nivel</th>
+						</tr>
+					</thead>
+					<tbody id="registros"></tbody>
+				</table>
+			</center>
+            <button id="btnBorrar" onclick="borrar()">Borrar Registros</button>
+        </div>
+
+        <div id="contenedor-promedio">
+            <label>IMC promedio:</label>
+            <p id="imcPromedio"></p>
+        </div>
+
+    </div>
+
+    <footer id="pie">
+        <p>Todos los derechos reservados. Ernesto Galindo</p>
+    </footer>
+
+</body>
+</html>

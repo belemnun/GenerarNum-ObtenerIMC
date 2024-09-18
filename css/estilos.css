@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding: 1em;
+    background-color: teal;
+    color: white;
+}
+
+#encabezado {
+    text-align: center;
+}
+
+#contenido {
+    background-color: bisque;
+    padding: 1em;
+}
+
+#contenedor {
+    text-align: center;
+}
+
+#contenedor label {
+    font-weight: bold;
+}
+
+#contenedor-imc {
+    text-align: center;
+}
+
+#contenedor-imc label {
+    font-weight: bold;
+}
+
+#contenedor-registros {
+    margin-top: 2em;
+}
+
+#contenedor-registros table {
+    margin-bottom: 1em;
+}
+
+#contenedor-registros h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#registros p{
+    text-align: center;
+    margin: .5em auto;
+}
+
+#btnGenerar {
+    padding: 1em;
+    background-color: peru;
+    color: white;
+    font-weight: bold;
+    margin: 1em 1em;
+    border: none;
+    border-radius: .3em;
+}
+
+#btnCalcular {
+    padding: 1em;
+    background-color: peru;
+    color: white;
+    font-weight: bold;
+    margin: 1em 1em;
+    border: none;
+    border-radius: .3em;
+}
+
+#btnRegistrar {
+    padding: 1em;
+    background-color: peru;
+    color: white;
+    font-weight: bold;
+    margin: 1em 1em;
+    border: none;
+    border-radius: .3em;
+}
+
+#btnGenerar:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+#btnCalcular:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+#btnRegistrar:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+#btnBorrar {
+    padding: 1em;
+    background-color: peru;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: .3em;
+}
+
+#btnBorrar:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+#contenedor-promedio {
+    text-align: center;
+    margin-top: 1em;
+}
+
+#pie p {
+    padding: 1.3em;
+    text-align: center;
+    background-color: teal;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+
+
